@@ -6,7 +6,7 @@ services:
     image: ferciapp:testv1
     container_name: fercc12
     ports:
-    - "9999:80"
+    - "9199:80"
     restart: always
     networks:
     - ferbridge111
