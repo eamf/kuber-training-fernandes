@@ -1,0 +1,12 @@
+version: "3.8"
+networks:
+  ferbridge111:
+services:
+  ferapp:
+    image: ferciapp:v1
+    container_name: fercc12
+    ports:
+    - "9999:80"
+    restart: always
+    networks:
+    - ferbridge111
