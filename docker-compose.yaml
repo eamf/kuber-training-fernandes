@@ -3,7 +3,7 @@ networks:
   ferbridge111:
 services:
   ferapp:
-    image: ferciapp:v1
+    image: ferciapp:testv1
     container_name: fercc12
     ports:
     - "9999:80"
